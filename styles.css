@@ -1,0 +1,175 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+/*Navbar Section*/
+.container-fluid {
+  padding: 2% 15% 7%;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  text-align: left;
+}
+
+h3 {
+  padding: 2% 10%;
+  margin:5%;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  font-weight: lighter;
+  color: #8f8f8f;
+  padding: 0 5%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 2;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.button-left{
+  text-align: left;
+}
+
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: relative;
+  left:30%;
+  margin-bottom: -59%;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-right: 1.5em;
+}
+
+.button-download {
+  margin: 5% 4% 0 0;
+}
+
+.fa-brands {
+  margin-right: 5px;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  padding:0% 30%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonials*/
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.ti {
+  border-radius: 100%;
+  width: 20%;
+  margin: 5%;
+}
+
+/*Press*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2%;
+}
+.logo {
+  width: 16%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*Pricing*/
+
+#pricing {
+  padding: 100px;
+
+}
+
+.column-pricing {
+  padding: 3% 4%;
+  margin-top: 100px;
+}
+
+
+/*Media-Query*/
+@media only screen and (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA Section :- */ 
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding:7% 15%;
+  
+}
+
+.copy{
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Footer Section :- */
+
+#footer{
+  text-align: center;
+  padding:7% 15%;
+
+}
+
+.social{
+  margin:20px 20px;
+}
